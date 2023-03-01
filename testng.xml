@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" thread-count="1" parallel="tests">
+    <test name="Cases_Search" parallel="tests" >
+        <classes>
+            <class name="Search.Search"/>
+        </classes>
+    </test>
+    <test name="Cases_Cart" parallel="tests" >
+    <classes>
+        <class name="Cart.Cart"/>
+    </classes>
+    </test>
+    <test name="Cases_LegalPerson" parallel="tests" >
+        <classes>
+            <class name="LegalPerson.LegalPerson"/>
+        </classes>
+    </test>
+</suite>
